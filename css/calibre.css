@@ -1,0 +1,9 @@
+.outer {
+	width:100%;
+	text-align: center;
+	position: relative;
+}
+
+.inner {
+	margin:auto;
+}
