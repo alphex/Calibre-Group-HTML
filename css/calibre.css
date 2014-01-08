@@ -1,3 +1,7 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
 .outer {
 	width:100%;
 	text-align: center;
@@ -5,5 +9,89 @@
 }
 
 .inner {
-	margin:auto;
+	margin:	auto;
+	width: 800px;
+	padding-top: 30px;
+}
+
+.contact {
+	text-align: right;
+	padding-right: 30px;
+}
+
+.text {
+	text-align: left;
+	padding-left: 90px;
+	padding-right: 90px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.text .center {
+	text-align: center;
+}
+
+p.red {
+	color: #942f34;
+	font-weight: bold;
+}
+
+.namerow1 {
+	width: 525px;
+}
+
+.namerow1 .left {
+	float: left;
+	width: 250px;
+	margin-left: 145px;
+}
+
+.namerow1 .right {
+	width:250px;
+	margin-left: 425px;
+}
+
+.namerow1 .person {
+	width: 250px;
+	text-align: center;
+}
+
+.person .name {
+	color: #942f34;
+	font-weight: bold;
+}
+
+.person .email a {
+	color: #924f34;
+}
+
+.namerow2 {
+	margin-top:40px;
+}
+
+.namerow2 .first {
+	float:left;
+}
+
+.namerow2 .first .left {
+	float:left;
+	width:250px;
+}
+
+.namerow2 .first .right {
+	margin-left:275px;
+	width:250px;
+}
+
+.namerow2 .second {
+	margin-left:550px;
+}
+
+.comingsoon {
+	margin-top: 60px;
+}
+
+.bottom {
+	margin-top:50px;
+	margin-bottom:50px;
 }
